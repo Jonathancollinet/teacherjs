@@ -1,0 +1,99 @@
+{
+    "host": "github.com",
+    "destinationPath": "correction01",
+    "options": {
+        "ssh": true,
+        "createReport": true,
+        "zipTraces": true
+    },
+    "languages": {
+        "js": {
+            "interpreted": true,
+            "prefix": "ex",
+            "extension": "js",
+            "command": "mocha",
+            "args": [],
+            "opt": {
+                "strictMode": true,
+                "clearLogs": true,
+                "clearTimeoutInterval": true,
+                "checkErrors": true
+            }
+        },
+        "php": {
+            "interpreted": true,
+            "prefix": "ex",
+            "extension": "php",
+            "command": "phpunit",
+            "args": [],
+            "opt": {
+                "strictTypes": true
+            }
+        },
+        "java": {
+            "interpreted": false,
+            "prefix": "ex",
+            "extension": "java",
+            "compilation": {
+                "command": "javac",
+                "args": [
+                    "-cp",
+                    ".:junit-4.12.jar"
+                ]
+            },
+            "command": "java",
+            "args": [
+                "-cp",
+                ".:junit-4.12.jar:hamcrest-core-1.3.jar",
+                "org.junit.runner.JUnitCore"
+            ],
+            "opt": {}
+        }
+    },
+    "tests": [
+        {
+            "name": "testJS",
+            "language": "js",
+            "testFile": "./suites/js/suite01-Basics/tests.js",
+            "gitFolder": "suite01-Basics",
+            "students": [
+                "alk3mik",
+                "AmauryDoux",
+                "cakou",
+                "donzo33",
+                "FACOLOMBANI",
+                "fahemuu",
+                "Fisherman33",
+                "flow89",
+                "garciamarco33",
+                "Graphmatic",
+                "hayliblink",
+                "jQtips",
+                "JulienLeotier",
+                "Noe33000",
+                "oltaieb",
+                "stranxik",
+                "Vanessa-C",
+                "zenshin"
+            ]
+        },
+        {
+            "name": "testPHP",
+            "language": "php",
+            "testFile": "./suites/php/suite01-Basics/tests.php",
+            "gitFolder": "phptest",
+            "students": [
+                "Jonathancollinet"
+            ]
+        },
+        {
+            "name": "testJAVA",
+            "language": "java",
+            "testFile": "./suites/java/suite01-Basics/tests.java",
+            "gitFolder": "javatest",
+            "students": [
+                "Jonathancollinet"
+            ]
+        }
+    ]
+}

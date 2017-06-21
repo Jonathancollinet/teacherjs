@@ -1,0 +1,24 @@
+{
+  "name": "modulealgo",
+  "version": "1.0.0",
+  "description": "``` #!javascript",
+  "main": "correct.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/quadehar34/modulealgo.git"
+  },
+  "author": "Jonathan Collinet",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/quadehar34/modulealgo#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chalk": "^1.1.3",
+    "syntax-error": "^1.3.0"
+  }
+}

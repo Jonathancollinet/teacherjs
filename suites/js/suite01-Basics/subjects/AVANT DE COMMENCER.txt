@@ -1,0 +1,45 @@
+/*
+
+    !!! PREMIERE ETAPE OBLIGATOIRE AVANT DE COMMENCER LE PREMIER EXERCICE !!!
+
+
+    ------ REGLES DE RENDU
+    -----------------------------------
+    --- 1] git
+
+    1) Forkez le projet "suite01"
+    2) Clonez le fork sur votre machine
+    3) Créer une branche "development", qui va contenir votre avancée
+
+    -----------------------------------
+    A chaque fois que vous complétez un exercice:
+    1) Faire un commit avec un message EXPLICITE sur votre branche "development"
+    2) Faire un merge de cette branche vers la branche "master"
+
+    -----------------------------------
+    L'idée est d'avoir une branche master propre,
+    contenant uniquement les exercices originels ou fonctionnels;
+    Lorsque vous avez terminé la suite entière d'exercices, faites une pull-request.    
+    S'il y a un problème de sujet ou autre conceptions: faites une issue.
+    -----------------------------------
+
+    -----------------------------------
+    --- 2] Fichiers
+
+    Vos exercices seront soumis à un script de correction.
+    Pour que les tests se déroulent sans accros:
+
+        Laisser uniquement la fonction de l'exercice !!
+        Aucuns autre appel à la fonction !!
+
+    Le script se chargera de passer les paramètres necéssaire à chaque exercice.
+
+    -----------------------------------
+
+    Lorsque vous avez terminé la suite ENTIERE d'exercices, faites une pull-request.    
+    Lorsque vous avez terminé la suite ENTIERE d'exercices, faites une pull-request.    
+    Lorsque vous avez terminé la suite ENTIERE d'exercices, faites une pull-request.    
+
+    Bonne continuation
+
+*/
